@@ -8,12 +8,12 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
-  let sum = a + b;
-  let msg = 'The sum of '+ a +' and '+ b +' is '+ sum +'.';
+function sum(s, h) { //eslint-disable-line
+  let sum = s + h;
+  let msg = 'The sum of ' + s + ' and ' + h + ' is ' + sum + '.';
   return [sum, msg]
 }
-// console.log( sum(4, 11));
+ //console.log( sum(4, 11));
 
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
@@ -119,7 +119,7 @@ This function should be dynamic, accepting an array of any length.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.*/
 
 // Write your code here
-let testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+let testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
